@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_home_black_24dp"
+        android:title="@string/nav_home" />
+    <item
+        android:id="@+id/nav_tampil"
+        android:icon="@drawable/round_shopping_cart_black_24dp"
+        android:title="@string/view" />
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/icons8aboutfilled25"
+        android:title="@string/about" />
+</menu>

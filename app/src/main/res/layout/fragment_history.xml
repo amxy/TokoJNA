@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backcolor"
+        android:text="cc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/arvi"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="104dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/bg"
+        android:textAlignment="center">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ARVI NAZWAN"
+            android:textStyle="bold"
+            android:textColor="@color/backcolor"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="125dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/imam2"
+            android:scaleType="centerCrop" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="224dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/bg"
+        android:textAlignment="center">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="IMAM JATI PERMANA"
+            android:textStyle="bold"
+            android:textColor="@color/backcolor"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_marginTop="260dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/mif3"
+                android:scaleType="centerCrop" />
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="355dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/bg"
+        android:textAlignment="center">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="MIFTAH MUHAMMAD S"
+            android:textStyle="bold"
+            android:textColor="@color/backcolor"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="390dp"
+        android:layout_width="match_parent"
+        android:layout_height="125dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/maul2"
+            android:scaleType="centerCrop" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="484dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/bg"
+        android:textAlignment="center">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="AHMAD MAULA"
+            android:textStyle="bold"
+            android:textColor="@color/backcolor"
+            android:gravity="center"/>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

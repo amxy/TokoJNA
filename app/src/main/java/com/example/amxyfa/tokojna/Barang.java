@@ -1,0 +1,51 @@
+package com.example.amxyfa.tokojna;
+
+public class Barang {
+
+        private long id;
+        private String nama_barang;
+        private Integer stok_barang;
+        private String harga_barang;
+
+        public Barang()
+        { }
+
+        public long getId() {
+
+            return id;
+        }
+        public void setId(long id) {
+
+            this.id = id;
+        }
+        public String getNama_barang() {
+
+            return nama_barang;
+        }
+
+        public void setNama_barang(String nama_barang) {
+
+            this.nama_barang = nama_barang;
+        }
+
+        public Integer getStok_barang() {
+
+            return stok_barang;
+        }
+        public void setStok_barang(Integer stok_barang) {
+            this.stok_barang = stok_barang;
+        }
+        public String getHarga_barang() {
+            return harga_barang;
+        }
+
+        public void setHarga_barang(String harga_barang) {
+            this.harga_barang = harga_barang;
+        }
+
+        @Override
+        public String toString()
+        {  return "Barang "+ nama_barang +" "+ stok_barang + " "+ harga_barang;
+        }
+
+    }
